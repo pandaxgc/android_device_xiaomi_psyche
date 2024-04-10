@@ -22,7 +22,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_psyche
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_psyche
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/psyche_defconfig
+TARGET_KERNEL_CONFIG += vendor/xiaomi/psyche.config
+# TARGET_KERNEL_CONFIG += vendor/psyche_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := psyche
