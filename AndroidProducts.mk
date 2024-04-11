@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/oolong_psyche.mk
+    $(LOCAL_DIR)/rising_psyche.mk
 
 COMMON_LUNCH_CHOICES := \
-    oolong_psyche-user \
-    oolong_psyche-userdebug \
-    oolong_psyche-eng
+    rising_psyche-user \
+    rising_psyche-userdebug \
+    rising_psyche-eng
