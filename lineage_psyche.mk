@@ -14,7 +14,7 @@ $(call inherit-product, vendor/lineage/config/common.mk)
 # Inherit from psyche device
 $(call inherit-product, device/xiaomi/psyche/device.mk)
 
-PRODUCT_NAME := rising_psyche
+PRODUCT_NAME := lineage_psyche
 PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

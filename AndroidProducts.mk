@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rising_psyche.mk
+    $(LOCAL_DIR)/lineage_psyche.mk
 
 COMMON_LUNCH_CHOICES := \
-    rising_psyche-user \
-    rising_psyche-userdebug \
-    rising_psyche-eng
+    lineage_psyche-user \
+    lineage_psyche-userdebug \
+    lineage_psyche-eng
